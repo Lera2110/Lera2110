@@ -10,13 +10,17 @@
  <a-anchor hit-testing-enabled='true'>
  
   <a-camera-static/>
-
-    <a-torus position="0 0.5 0" color="green" radius="0.5"></a-torus>
-    <a-plane src="plane.jpg" width="2.5" height="1.5" rotation="-55 0 0" position="0 1 -1" color="purple"></a-plane>
-    <a-plane src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/uvgrid/UV_Grid_Sm.jpg" width="2.5" height="1.5" position="0 1 -1"></a-plane>
-    <a-cylinder color="yellow" height="2" radius="0.05"position="0 0 0"></a-cylinder>
-    <a-cylinder color="blue" height="2" radius="0.05" position="1 0 0"></a-cylinder>
-    <a-torus-knot color="orange" radius="0.5" position="1 0.5 0"></a-torus-knot>
-    <a-text value="Вітаємо вас у VR" width="10" color="black" position="-1 0.5 -1" width="3" font="Bebas_Neue_Cyrillic-msdf.json" negate="false"></a-text>
+<a-plane width="7" height="7" rotation="-55 0 0" position="-2 -2 -5" color="purple"></a-plane>
+<a-sky color="grey"></a-sky>
+<a-torus position="-2 1 -5" color="green" radius="1.2"></a-torus>
+<a-cylinder color="yellow" height="2" radius="0.05" position="-2 -1 -5"></a-cylinder>
+<a-cylinder color="blue" height="2" radius="0.05" position="-3 -1 -5"></a-cylinder>
+<a-torus-knot color="orange" radius="1.2" position="-4 1 -5"></a-torus-knot>
+<a-plane width="9" height="2" position="3 1 -9"></a-plane>
+<a-text value="" color="black" width="10" position="-0.5 1 -6"></a-text>
+<a-text value="The work was done by Eremenko!" color="black" width="10" position="-0.5 1 -6"></a-text>
+<a-plane src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/illustration/758px-Canestra_di_frutta_(Caravaggio).jpg" width="7" height="7" rotation="-55 0 0" position="-2 -2 -5" color="purple"></a-plane>
+<a-torus position="-2 1 -5" color="green" radius="1.2" animation="property: components.material.material.color; type: color; from: green; to: red; loop: true; dur: 10000"></a-torus>
+</a-anchor>
 </a-scene>
 </html>
